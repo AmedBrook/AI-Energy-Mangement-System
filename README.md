@@ -3,55 +3,31 @@ AI-EMS
 
 Ai-based Energy Managment System
 
-Project Organization
-------------
-
-    ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
-    ├── README.md          <- The top-level README for developers using this project.
-    ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
-    │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-    │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
-    │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
-    │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
 
 
---------
+Project's title.
+=================
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+Smarti-act : AI-based Energy Management System (EMS) 
+
+
+Project's description and context. 
+===============================
+
+
+The project aims to come up with a solution to well manage the energy usage inside a an industrial environnemnt where there is a high requiremnts for energy availability to keep the manufacuring lines runing especially for the crtical industries that are essenitial for human life like medicines and food manufacutring. We already know that companies while trying to fill the market demande they can consume a lot of energy that sometimes don't need, and beacause compnaies don't have the mecanismes to control their needs in term of energy, therefore, this ends up with a down time for them when the power source are fluctuating or unavailable for whatever reason. The IEMS systems can play an important role in this area and can fil the gap in most of the time accuarately. 
+
+
+
+
+Project's case usage.
+====================
+
+This porject will bring to the light one possible solution of an IEMS using Machine Learnig algorithmes, this case is related to optimize and rationalize the energy consumption for companies during the blackout periods where the principal power resources are down and alternative reseources are very limitted. 
+
+
+Authors.
+======================
+
+Ahmed Mabrouk, Ch.Eng & Msc.Eng
+
