@@ -6,5 +6,5 @@ setup(
     version='0.1.0',
     description='Ai-based Energy Managment System',
     author='Ahmed Mabrouk',
-    license='MIT',
+    license='CC0 1.0 Universal',
 )
