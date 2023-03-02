@@ -1,6 +1,18 @@
-# This the script to visualize the model output either in training or testing 
+# This the script to visualize training or testing outputs.
 
 from matplotlib.colors import ListedColormap
+from sklearn.preprocessing import StandardScaler
+import numpy as np
+from sklearn.svm import SVC
+import matplotlib.pyplot as plt
+
+
+
+sc = StandardScaler()
+X_train = []
+y_train = []
+classifier = SVC( kernel = 'linear', C = 2.3, tol = 1.18 , probability= False, )
+classifier.fit(X_train, y_train)
 
 
 X_set, y_set = sc.inverse_transform(X_train), y_train
