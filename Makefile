@@ -32,7 +32,7 @@ clean:
 
 ## Lint using flake8
 lint:
-	flake8 notebooks
+	$(PYTHON_INTERPRETER) -m flake8 notebooks
 
 ## Set up python interpreter environment
 create_environment:
