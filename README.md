@@ -1,14 +1,14 @@
 AI-EMS
 ==============================
 
-Ai-based Energy Managment System
+Intelligent Energy Managment System based on a model developed using AI/ML techniques.
 
 
 
 Project's title.
 =================
 
-Smarti-act : AI-based Energy Management System (AI-EMS) 
+Smarti-act : AI-based Energy Management System (AI-EMS). 
 
 
 Project's description and context. 
@@ -23,7 +23,7 @@ The project aims to come up with a solution to well manage the energy usage insi
 Project's case usage.
 ====================
 
-This porject will bring to the light one possible solution of an IEMS using Machine Learnig algorithmes, this case is related to optimize and rationalize the energy consumption for companies during the blackout periods where the principal power resources are down and alternative reseources are very limitted. 
+This porject will bring to the light one possible solution of an IEMS using Machine Learnig algorithmes, this case is related to optimize and rationalize energy consumption for companies during the blackout periods when the principal power resources are down and alternative reseources are very limitted. 
 
 
 Authors.
