@@ -1,4 +1,4 @@
-# How to contribute to HEO model.
+# How to contribute to AI-EMS model.
 
 This is a guide on how to contribute to AI-EMS.
 
