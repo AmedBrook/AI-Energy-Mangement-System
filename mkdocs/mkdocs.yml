@@ -1,0 +1,34 @@
+site_name: AI-EMS
+
+nav: 
+
+    - Project case study.: 
+        - Solution context.: solution context.md
+        - Problem Description.: problem description.md
+    - Getting started.: index.md
+    - Model conception.: 
+        - Data pre-processing.: data pre-processing.md
+        - Managment policy.: managment policy.md
+    - Contribution: 
+        - Contribution guide.: contr_guide.md
+    - About.: 
+        - Authors.: authors.md
+        - Changelog & Versionning.: chng_log.md
+
+
+markdown_extensions:
+    - toc:
+        permalink: true  
+
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+theme: readthedocs
+
