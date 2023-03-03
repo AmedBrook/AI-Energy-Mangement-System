@@ -8,7 +8,7 @@ Ai-based Energy Managment System
 Project's title.
 =================
 
-Smarti-act : AI-based Energy Management System (EMS) 
+Smarti-act : AI-based Energy Management System (AI-EMS) 
 
 
 Project's description and context. 
