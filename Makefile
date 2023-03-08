@@ -1,4 +1,4 @@
-.PHONY: clean create_environment lint requirements test_environment
+.PHONY: clean create_env lint requirements test_env
 
 #################################################################################
 # GLOBALS                                                                       #
@@ -35,7 +35,7 @@ lint:
 	$(PYTHON_INTERPRETER) -m flake8 notebooks
 
 ## Set up python interpreter environment
-create_environment:
+create_env:
 ifeq (True,$(HAS_CONDA))
 		@echo ">>> Detected conda, creating conda environment."
 ifeq (3,$(findstring 3,$(PYTHON_INTERPRETER)))
@@ -53,7 +53,7 @@ else
 endif
 
 ## Test python environment if it is setup correctly
-test_environment:
+test_env:
 	$(PYTHON_INTERPRETER) test_environment.py
 
 #################################################################################
