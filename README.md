@@ -29,6 +29,7 @@ This project will bring to the light to one possible solution of an IEMS using M
 Authors.
 ======================
 
-Ahmed Mabrouk, Ch.Eng & Msc.Eng
+Ahmed Mabrouk, Ch.Eng & Msc.Eng.
+
 LinkedIn : https://www.linkedin.com/in/ahmed-mabrouk-604547ab/
 
