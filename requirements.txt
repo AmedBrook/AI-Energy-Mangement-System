@@ -2,7 +2,6 @@
 -e .
  
 # Project requirements
-numpy 
 matplotlib.pyplot
 matplotlib.colors
 pandas
