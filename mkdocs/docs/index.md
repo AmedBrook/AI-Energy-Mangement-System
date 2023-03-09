@@ -49,7 +49,7 @@ For full source project : [https://github.com/AmedBrook/AI-EMS](https://github.c
     requirements.txt
     test_environment.py
     setup.py
-    tox.ini
+    setup.cfg
 
 <br>
 <br>
