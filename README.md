@@ -28,10 +28,10 @@ The project aims to come up with a solution to well manage the energy usage insi
 
 
 
-Project's case usage.
+Project use case.
 ====================
 
-This project will bring to the light to one possible solution of an IEMS using Machine Learnig techniques, this case is related to optimize and rationalize energy consumption for companies during the blackout periods when the principal power resources are down and alternative resources are very limitted. 
+This project will bring to the light to one possible solution of an IEMS using Machine Learnig techniques, this case is related to optimize and rationalize energy consumed with one specific department (Local refregeration [department responsible of generating cold for cooling systems and production need]) in a company blue print during the blackout periods when the principal power resources are down and alternative resources are very limitted. 
 
 ### Setup.
 ---
