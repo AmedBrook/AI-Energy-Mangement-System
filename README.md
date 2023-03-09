@@ -1,3 +1,11 @@
+Authors.
+======================
+
+Ahmed Mabrouk, Ch.Eng & Msc.Eng.
+
+LinkedIn : https://www.linkedin.com/in/ahmed-mabrouk-604547ab/
+
+
 AI-EMS
 ==============================
 
@@ -24,15 +32,6 @@ Project's case usage.
 ====================
 
 This project will bring to the light to one possible solution of an IEMS using Machine Learnig techniques, this case is related to optimize and rationalize energy consumption for companies during the blackout periods when the principal power resources are down and alternative resources are very limitted. 
-
-
-Authors.
-======================
-
-Ahmed Mabrouk, Ch.Eng & Msc.Eng.
-
-LinkedIn : https://www.linkedin.com/in/ahmed-mabrouk-604547ab/
-
 
 ### Setup.
 ---
@@ -117,3 +116,7 @@ Testing code is important to garantee consistency and availabality of this proje
 Under the hood, make will go over the <em><strong>`Makefile`</em></strong> located in our directory which itself will chain to all coding resources in <em><strong>`/src/.`</em></strong> and <em><strong>`/notebooks`</em></strong> directories and will check the syntax and style of your code using flake8 to meet PEP8 standards.
 >
 
+Model Dataset.
+======================
+
+The collected data used in this particular project use case is based on the author work experience and estimations. 
