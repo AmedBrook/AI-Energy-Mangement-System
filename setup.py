@@ -10,7 +10,7 @@ def get_install_requirements():
 
 setup(
     name='AIEMS',
-    version='0.1.0',
+    version='0.1.4',
     description='Ai-based Energy Managment System',
     author='Ahmed Mabrouk',
     author_email='mabrook.amed@gmail.com',
