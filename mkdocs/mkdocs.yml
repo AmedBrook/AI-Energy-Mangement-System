@@ -3,12 +3,12 @@ site_name: AI-EMS
 nav: 
 
     - Project case study.: 
+        - Problem description.: problem description.md
         - Solution context.: solution context.md
-        - Problem Description.: problem description.md
     - Getting started.: index.md
     - Model conception.: 
         - Data pre-processing.: data pre-processing.md
-        - Managment policy.: managment policy.md
+        - Model policy.: managment policy.md
     - Contribution: 
         - Contribution guide.: contr_guide.md
     - About.: 
