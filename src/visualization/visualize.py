@@ -2,18 +2,12 @@
 
 from matplotlib.colors import ListedColormap
 from sklearn.preprocessing import StandardScaler
-import numpy as np
+#import numpy as np
 from sklearn.svm import SVC
 import matplotlib.pyplot as plt
+from src.models import iems
 
-
-
-sc = StandardScaler()
-X_train = []
-y_train = []
-classifier = SVC( kernel = 'linear', C = 2.3, tol = 1.18 , probability= False, )
-classifier.fit(X_train, y_train)
-
+iems('../datasets/processed/L_Refreg200.csv', [1,2], -1)
 
 X_set, y_set = sc.inverse_transform(X_train), y_train
 X1, X2 = np.meshgrid(np.arange(start = X_set[:, 0].min() - 10, stop = X_set[:, 0].max() + 10, step = 0.25),
