@@ -54,7 +54,7 @@ endif
 
 ## Test python environment if it is setup correctly
 test_env:
-	$(PYTHON_INTERPRETER) test_environment.py
+	$(PYTHON_INTERPRETER) test_env.py
 
 #################################################################################
 # Self Documenting Commands                                                     #
