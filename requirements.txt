@@ -1,10 +1,6 @@
-# local package
--e .
- 
 # Project requirements
 numpy 
-matplotlib.pyplot
-matplotlib.colors
+matplotlib
 pandas
 scikit-learn
 flake8
