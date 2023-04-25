@@ -1,4 +1,4 @@
-.PHONY: clean create_env lint requirements test_env
+.PHONY: clean create_env lint setup test_env
 
 #################################################################################
 # GLOBALS                                                                       #
@@ -21,7 +21,7 @@ endif
 #################################################################################
 
 ## Install Python Dependencies
-requirements: test_environment
+setup: test_env
 	$(PYTHON_INTERPRETER) -m pip install -U pip setuptools wheel
 	$(PYTHON_INTERPRETER) -m pip install -e .
 
